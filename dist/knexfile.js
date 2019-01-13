@@ -18,13 +18,5 @@ module.exports = {
         seeds: {
             directory: __dirname + '/knex/seeds' // directory seeds
         }
-    },
-    actually_use: {
-        client: 'mysql',
-        connection: {
-            user: 'clinic_chumphae',
-            password: 'clinic2018',
-            database: 'osm'
-        }
     }
 };
